@@ -13,7 +13,7 @@ public class DemoController {
 
     //Setter example
     @Autowired
-    public void setCoach(Coach theCoach) {
+    public DemoController(Coach theCoach) {
         myCoach = theCoach;
     }
 
